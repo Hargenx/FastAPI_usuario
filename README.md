@@ -33,19 +33,19 @@ GET /repositories/{owner}/{repo}/issues
 ```
 
 ### Obter número de estrelas de um repositório
-```
+```python
 GET /repositories/{owner}/{repo}/stars
 ```
 ### Obter contagem de repositórios de um usuário
-```
+```python
 GET /users/{username}/repos/count
 ```
 ### Obter informações de um usuário
-```
+```python
 GET /users/{username}
 ```
 ### Obter repositórios de um usuário
-```
+```python
 GET /repositories/{owner}
 ```
 ## Contribuição
